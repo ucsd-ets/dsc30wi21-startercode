@@ -239,27 +239,6 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
         return -1;
     }
 
-    /**
-     * Return the number of leaf nodes in the tree
-     *
-     * @return The number of leaf nodes in the tree
-     */
-    public int leafCount() {
-        /* TODO */
-        return -1;
-    }
-
-    /**
-     * Helper for the leafCount method
-     *
-     * @param root Root node
-     * @return The number of leaf nodes in the tree
-     */
-    private int leafCountHelper(BSTNode root) {
-        /* TODO */
-        return -1;
-    }
-
     /* * * * * BST Iterator * * * * */
 
     public class BSTree_Iterator implements Iterator<T> {
